@@ -7,6 +7,8 @@ Shader "Custom/TestShader"
         _Glossiness ("Smoothness", Range(0,1)) = 0.5
         _Metallic ("Metallic", Range(0,1)) = 0.0
 
+        _XCurvature("XCurvature", Float) = 0.0
+        _YCurvature("YCurvature", Float) = 0.0
     }
     SubShader
     {
@@ -21,6 +23,8 @@ Shader "Custom/TestShader"
         #pragma target 3.0
 
         sampler2D _MainTex;
+        float _XCurvature;
+        float _YCurvature;
 
         struct Input
         {
@@ -40,13 +44,18 @@ Shader "Custom/TestShader"
 
         void vert(inout appdata_full v)
         {
-            float g1 = 1;
-            float g2 = 1;
-            float g3 = 0.03;
-            float g4 = 0.03;
-            v.vertex.x += g1 * v.vertex.x * v.vertex.y;
-            v.vertex.z += g2 * v.vertex.z * v.vertex.y;
-            v.vertex.y -= (g3 * (v.vertex.x* v.vertex.x) + g4 * (v.vertex.z * v.vertex.z));
+            float4 pos = mul(unity_ObjectToWorld, v.vertex);
+
+            float g1 = 0;
+            float g2 = 0;
+            float g3 = _XCurvature;
+            float g4 = _YCurvature;
+
+            float3 d = float3(pos.x, pos.y, pos.z);
+
+            v.vertex.x += d.x + g1 * d.x * d.y;
+            v.vertex.z += d.z + g2 * d.z * d.y;
+            v.vertex.y += d.y - (g3 * pow(d.x,2) + g4 * pow(d.z,2));
         }
 
         void surf (Input IN, inout SurfaceOutputStandard o)

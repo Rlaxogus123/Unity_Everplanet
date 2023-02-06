@@ -1,0 +1,533 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1675668144941934, "dur": 3424254, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675668144942198, "dur": 16895, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675668144959100, "dur": 46008, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675668145005111, "dur": 1048951, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675668146054066, "dur": 2301031, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675668148355099, "dur": 11086, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675668148367120, "dur": 30, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1675668145513754, "dur": 508977, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675668145515297, "dur": 66966, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675668145984632, "dur": 15426, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675668146000064, "dur": 22650, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675668146000864, "dur": 10287, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675668146027986, "dur": 1282, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675668146027247, "dur": 2046, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675668148367351, "dur": 322, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1675668146119718, "dur":2979, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668146122705, "dur":44, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675668146122762, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675668146122778, "dur":683, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675668146123509, "dur":17513, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668146141023, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148172980, "dur":245, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173225, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173243, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173245, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173252, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173252, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173257, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173258, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173264, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173264, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173269, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173270, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173275, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173276, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173280, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173280, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173285, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173286, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173291, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173292, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173298, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173298, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173304, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173304, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173310, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173324, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148173344, "dur":11423, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675668146124002, "dur":17057, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675668146141061, "dur":6235, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675668146147309, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675668146147316, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675668146205996, "dur":16842, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675668146222842, "dur":28973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675668146251820, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675668146281172, "dur":113997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675668146395172, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1675668146395763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675668146425551, "dur":33823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1675668146459619, "dur":215930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675668146675554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675668146852313, "dur":273361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675668147125798, "dur":283411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675668147409214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675668147409222, "dur":50103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675668147459620, "dur":78684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675668147538310, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675668147538319, "dur":22982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675668147561395, "dur":67283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675668147631789, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675668147631800, "dur":40230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675668147672136, "dur":142560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675668147814704, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675668147814714, "dur":39945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675668147854758, "dur":75042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675668147929806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675668147929815, "dur":41920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675668147971872, "dur":46180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675668148018057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675668148018069, "dur":36560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675668148072353, "dur":829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1675668148073190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675668148073958, "dur":28145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1675668148102220, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675668148102315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675668148102320, "dur":57424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675668148159820, "dur":13164, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675668146124041, "dur":17024, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675668146141065, "dur":6429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675668146147495, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1675668146147844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675668146313949, "dur":715670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1675668147029893, "dur":185593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668147215493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675668147215502, "dur":20021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668147235632, "dur":2754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668147238392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675668147238401, "dur":25433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668147263996, "dur":71355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668147335358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675668147335367, "dur":31384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668147366849, "dur":145734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668147512589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675668147512596, "dur":14109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668147526799, "dur":58500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668147585303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675668147585312, "dur":28486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668147613922, "dur":92207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668147706135, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675668147706146, "dur":21802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668147728114, "dur":79299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668147807419, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675668147807428, "dur":22876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668147830502, "dur":79305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668147909812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675668147916669, "dur":49510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668147966793, "dur":155001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668148121799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675668148121805, "dur":43341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675668148165197, "dur":7784, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668146124194, "dur":16891, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668146141086, "dur":6313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668146147401, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1675668146147689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668146302727, "dur":103858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1675668146406671, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1675668146406804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668146410606, "dur":20657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1675668146431417, "dur":122239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1675668146553661, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668146553667, "dur":512172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1675668147066165, "dur":206317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147272489, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668147272497, "dur":23670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147296348, "dur":57363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147353723, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668147353733, "dur":28422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147382273, "dur":73272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147455552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668147455560, "dur":20911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147476602, "dur":95902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147572510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668147574145, "dur":29928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147604310, "dur":33201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147637517, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668147637526, "dur":39828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147677471, "dur":51572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147729049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668147729057, "dur":24961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147754111, "dur":47825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147801943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668147801951, "dur":21251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147823297, "dur":26566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147849867, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668147849873, "dur":18156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147868123, "dur":42518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147917006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668147917016, "dur":53248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668147970401, "dur":40187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668148010594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668148010604, "dur":27300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668148038040, "dur":30725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668148068770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675668148068776, "dur":61130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675668148130087, "dur":42877, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675668146124085, "dur":16986, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675668146141071, "dur":6368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675668146147441, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1675668146147695, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675668146266760, "dur":144150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1675668146411193, "dur":10579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1675668146421777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675668146422727, "dur":15443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1675668146438382, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1675668146438681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675668146453509, "dur":656008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1675668147109649, "dur":41863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668147151517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675668147151524, "dur":25820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668147177445, "dur":176930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668147354380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675668147354389, "dur":24606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668147379102, "dur":190481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668147569589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675668147569597, "dur":16956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668147586645, "dur":42821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668147631795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675668147631804, "dur":25072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668147656995, "dur":83014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668147740015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675668147740024, "dur":34933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668147775166, "dur":47142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668147822315, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675668147822323, "dur":38332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668147860758, "dur":52252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668147917038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675668147917044, "dur":49126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668147966365, "dur":31693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668147998065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675668147998074, "dur":21766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668148020423, "dur":146431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668148166857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675668148166862, "dur":5994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675668148172942, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1675668148172945, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675668146124148, "dur":16931, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675668146141080, "dur":6365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675668146147447, "dur":16302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1675668146163752, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675668146256134, "dur":154975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1675668146411286, "dur":80163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668146491457, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675668146850450, "dur":215868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668147066516, "dur":79631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668147146154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675668147146163, "dur":24743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668147170997, "dur":174395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668147345399, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675668147345408, "dur":24516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668147370477, "dur":48379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668147418863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675668147418941, "dur":50592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668147469653, "dur":41818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668147511478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675668147511488, "dur":63388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668147574977, "dur":160015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668147734999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675668147735008, "dur":42171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668147777301, "dur":46519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668147823824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675668147823831, "dur":35964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668147859904, "dur":76369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668147936280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675668147936288, "dur":35600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668147972105, "dur":69457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668148041567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675668148041575, "dur":12304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675668148053980, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1675668148054458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675668148077569, "dur":52330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1675668148130046, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1675668148130206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675668148130210, "dur":33793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1675668148164072, "dur":8897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675668146124240, "dur":16849, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675668146141090, "dur":6261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675668146147353, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1675668146147707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675668146294679, "dur":734960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1675668147029864, "dur":88512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675668147118381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675668147118389, "dur":32487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675668147151024, "dur":209159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675668147360191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675668147360201, "dur":29406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675668147389698, "dur":335104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675668147724809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675668147727936, "dur":51145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675668147780006, "dur":38050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675668147818063, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675668147818072, "dur":43367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675668147861545, "dur":47967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675668147909519, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675668147909529, "dur":41982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675668147951607, "dur":135771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675668148087384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675668148087393, "dur":51744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675668148139215, "dur":33764, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675668146124325, "dur":16770, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675668146141096, "dur":6315, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675668146147413, "dur":13483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1675668146160903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675668146251915, "dur":159055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1675668146411242, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1675668146411453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675668146411461, "dur":40058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1675668146451709, "dur":301797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675668146753510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675668146852391, "dur":298499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675668147151014, "dur":55537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675668147206559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675668147206569, "dur":20819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675668147227479, "dur":115814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675668147343300, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675668147343313, "dur":34293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675668147377692, "dur":44566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675668147422265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675668147422274, "dur":75555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675668147497931, "dur":74943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675668147574039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675668147574049, "dur":19419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675668147593607, "dur":34991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675668147628603, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675668147628612, "dur":28389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675668147657117, "dur":192079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675668147849202, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675668147849229, "dur":32350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675668147881703, "dur":151424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675668148033134, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675668148033144, "dur":50651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675668148083932, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675668148084074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675668148084080, "dur":70000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675668148154171, "dur":18802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675668146124365, "dur":16737, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675668146141102, "dur":6231, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675668146147334, "dur":16475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1675668146163812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675668146256128, "dur":154962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1675668146411279, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1675668146411539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675668146411544, "dur":51185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1675668146462861, "dur":244056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668146706921, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675668146852349, "dur":289412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668147141865, "dur":270591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668147412462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675668147412471, "dur":57805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668147470373, "dur":43903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668147514281, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675668147514289, "dur":39354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668147553751, "dur":30830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668147584589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675668147584598, "dur":35796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668147620531, "dur":31881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668147652418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675668147652426, "dur":21627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668147674140, "dur":82191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668147756336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675668147756347, "dur":26881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668147783383, "dur":37533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668147820937, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675668147820947, "dur":41487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668147862530, "dur":48087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668147916953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675668147916974, "dur":40906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668147958137, "dur":40310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668147998452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675668147998458, "dur":11043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668148009642, "dur":65700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668148075348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675668148075355, "dur":54502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675668148130045, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675668148130205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675668148130210, "dur":34231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675668148164501, "dur":8469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675668146124619, "dur":16488, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675668146141107, "dur":6217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675668146147326, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1675668146147629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675668146256011, "dur":166057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1675668146422339, "dur":621540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147065837, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675668147066104, "dur":127675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147193953, "dur":76887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147270846, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675668147270855, "dur":14526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147285533, "dur":2624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147288164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675668147288174, "dur":22177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147310439, "dur":58063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147368513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675668147368522, "dur":19607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147388227, "dur":139233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147527465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675668147527473, "dur":43820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147571400, "dur":60353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147631797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675668147631805, "dur":38263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147670336, "dur":62283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147732625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675668147732633, "dur":46117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147779110, "dur":52361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147831477, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675668147831485, "dur":35520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147867388, "dur":61002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147928397, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675668147928407, "dur":41420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668147969966, "dur":41516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668148011487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675668148011494, "dur":15712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668148027911, "dur":40217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668148068134, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675668148068152, "dur":33920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675668148102174, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1675668148102292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675668148102298, "dur":56593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1675668148159004, "dur":13967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668146124774, "dur":16338, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668146141112, "dur":6206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668146147320, "dur":9887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1675668146157214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668146256110, "dur":149839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1675668146406053, "dur":7973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1675668146414030, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668146422716, "dur":15444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1675668146438376, "dur":34922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet.exe" }}
+,{ "pid":12345, "tid":10, "ts":1675668146473322, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668146473330, "dur":379000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet.exe" }}
+,{ "pid":12345, "tid":10, "ts":1675668146852536, "dur":75190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668146927733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668146927906, "dur":171628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147099640, "dur":150336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147249982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668147249992, "dur":25584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147275690, "dur":2837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147278533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668147278541, "dur":24414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147303040, "dur":42473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147345518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668147345525, "dur":15161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147360803, "dur":3082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147363892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668147363901, "dur":23999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147388489, "dur":42665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147431161, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668147431170, "dur":49060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147480358, "dur":32851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147513214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668147513221, "dur":42932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147556234, "dur":38436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147594676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668147594689, "dur":17999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147612899, "dur":31444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147644349, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668147644358, "dur":25294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147670067, "dur":68339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147738413, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668147738422, "dur":35227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147773732, "dur":50674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147824412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668147824420, "dur":40371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147864892, "dur":47829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147917013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668147917021, "dur":46470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668147963605, "dur":62006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668148025632, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668148025661, "dur":15649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668148041416, "dur":57498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668148098919, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675668148101552, "dur":53698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675668148155304, "dur":17677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675668146124897, "dur":16220, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675668146141117, "dur":6196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675668146147315, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1675668146147648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675668146293552, "dur":129685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1675668146423439, "dur":39846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668146463288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675668146463293, "dur":389509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668146852956, "dur":114408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668146967367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675668146967373, "dur":154327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668147121815, "dur":45130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668147166953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675668147166962, "dur":19511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668147186594, "dur":358136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668147544736, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675668147544745, "dur":25585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668147571894, "dur":38722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668147610623, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675668147610633, "dur":17975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668147628821, "dur":106965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668147735791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675668147735799, "dur":42361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668147778257, "dur":37772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668147816035, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675668147816043, "dur":42495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668147858662, "dur":31055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668147889724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675668147889733, "dur":14356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668147904247, "dur":37055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668147941308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675668147941316, "dur":31640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668147973064, "dur":72606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668148045677, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675668148045695, "dur":34637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675668148080540, "dur":823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1675668148081367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675668148081374, "dur":48513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1675668148129989, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1675668148130089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675668148130096, "dur":33718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1675668148163928, "dur":9037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675668146125090, "dur":16033, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675668146141124, "dur":6184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675668146147310, "dur":22021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1675668146169336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675668146256180, "dur":154863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1675668146411200, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1675668146411532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675668146422678, "dur":643746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1675668147066622, "dur":149217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675668147215844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675668147215851, "dur":11941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675668147227889, "dur":179610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675668147407506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675668147407514, "dur":24370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675668147455332, "dur":112544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675668147567883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675668147567891, "dur":10946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675668147578932, "dur":44888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675668147623827, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675668147623836, "dur":30168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675668147654126, "dur":77769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675668147731902, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675668147731912, "dur":40197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675668147772245, "dur":80774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675668147853023, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675668147854061, "dur":37250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675668147891508, "dur":31027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675668147922542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675668147922557, "dur":38907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675668147961595, "dur":55342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675668148016944, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675668148016954, "dur":56954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675668148074426, "dur":1250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1675668148075680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675668148075685, "dur":54194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1675668148130019, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles bin/Everplanet_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1675668148130516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675668148130520, "dur":33897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"bin/Everplanet_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1675668148164476, "dur":8500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675668148195473, "dur":123189, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1675668148367763, "dur": 4948, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675668148367094, "dur": 5675, "ph": "X", "name": "Write chrome-trace events", "args": {} },
